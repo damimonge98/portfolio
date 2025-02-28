@@ -32,10 +32,11 @@
 }
 
 .grid-item img {
-    width: 100%; /* Que todas las imágenes tengan el mismo ancho */
-    height: auto; /* Mantiene la proporción */
-    max-height: 300px; 
-    object-fit: cover; /* Recorta las imágenes para que llenen el espacio */
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; /* Relación de aspecto para reservar el espacio correctamente */
 }
 
 .card-content {

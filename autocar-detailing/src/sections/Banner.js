@@ -24,10 +24,11 @@ const Banner = () => {
     return (
         <div className="banner">
             <img
+                rel="preload"
                 src={
                     isResponsive
-                        ? `${process.env.PUBLIC_URL}/img/banner_responsive.svg`
-                        : `${process.env.PUBLIC_URL}/img/banner.svg`
+                        ? `${process.env.PUBLIC_URL}/img/banner_responsive.webp`
+                        : `${process.env.PUBLIC_URL}/img/banner.webp`
                 }
                 alt="Banner"
             />

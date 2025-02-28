@@ -1,0 +1,56 @@
+#work-mosaic {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f7f7f7;
+}
+
+#work-mosaic h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.grid-mosaic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Que ocupen el 100% del contenedor */
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.grid-item img {
+    width: 100%; /* Que todas las imágenes tengan el mismo ancho */
+    height: auto; /* Mantiene la proporción */
+    max-height: 300px; 
+    object-fit: cover; /* Recorta las imágenes para que llenen el espacio */
+}
+
+.card-content {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Responsive: una columna para pantallas pequeñas */
+@media (max-width: 1160px) {
+    .grid-mosaic {
+        grid-template-columns: 1fr;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}

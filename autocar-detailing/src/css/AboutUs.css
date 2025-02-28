@@ -1,0 +1,99 @@
+#about-us {
+    background-color: #010035;
+    text-align: center;
+    color: #fff;
+}
+
+#about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    padding-left: 1rem;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+}
+.about-content {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Centra verticalmente */
+    height: 600px; /* Altura completa de la pantalla */
+    gap: 1rem; /* Espacio entre los elementos */
+    padding: 1rem; /* Espaciado interno opcional */
+    box-sizing: border-box; /* Incluye padding en las dimensiones */
+}
+
+.about-content img {
+    flex: 1; /* Ocupa la mitad del espacio disponible */
+    max-width: 50%; /* Limita el ancho máximo al contenedor */
+    height: auto; /* Mantiene proporciones */
+    object-fit: cover; /* Recorta si es necesario para mantener el diseño */
+    margin-left: 20px;
+}
+
+.about-description {
+    flex: 1; /* Ocupa la otra mitad del espacio */
+    text-align: justify; /* Justifica el texto */
+    padding: 0 1rem 0 1rem; /* Espaciado interno para el texto */
+}
+
+.location {
+    text-align: center;
+}
+
+.location h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    padding-left: 1rem;
+}
+
+.location p {
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+.map-container {
+    margin-top: 1rem;
+    max-width: 100%; /* Asegúrate de que el mapa no exceda el ancho del contenedor */
+    display: flex;
+    justify-content: center; /* Centra el mapa */
+}
+
+iframe {
+    border-radius: 8px; /* Bordes redondeados para el iframe */
+}
+
+
+@media (max-width: 768px) {
+    #about-us h2 {
+        font-size: 1.5rem;;
+    }
+
+    .about-content img {
+        display: none;
+    }
+
+    .about-content {
+        min-height: auto; /* Permite que crezca según el contenido */
+        height: auto;
+        flex-direction: column; /* Para apilar el contenido verticalmente */
+        text-align: center;
+    }
+    
+    .location {
+        text-align: left;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .location h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+        padding-left: 1rem;
+    }
+}
+
+  

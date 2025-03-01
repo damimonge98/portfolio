@@ -2,7 +2,19 @@
     text-align: center;
     padding: 2rem 1rem;
     background-color: #f7f7f7;
+    width: 100%;
+    height: auto; /* Tamaño fijo para la sección */
+    overflow: hidden;
 }
+
+#work-mosaic img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
+  
 
 #work-mosaic h2 {
     font-size: 1.8rem;
@@ -47,11 +59,23 @@
 
 /* Responsive: una columna para pantallas pequeñas */
 @media (max-width: 1160px) {
+    #work-mosaic {
+        height: auto;
+    }
+    
     .grid-mosaic {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Una columna para pantallas pequeñas */
+    }
+
+    .grid-item {
+        margin-bottom: 1rem; /* Añadir espacio entre las tarjetas */
     }
 
     .card-title {
         font-size: 1rem;
+    }
+
+    #work-mosaic img {
+        max-height: 250px; /* Ajusta la altura en pantallas pequeñas */
     }
 }

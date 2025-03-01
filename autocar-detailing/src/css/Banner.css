@@ -8,3 +8,10 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* Ajustar el comportamiento en pantallas pequeñas */
+@media (max-width: 768px) {
+    .banner img {
+        object-fit: contain; /* Ajusta la imagen en pantallas más pequeñas */
+    }
+}

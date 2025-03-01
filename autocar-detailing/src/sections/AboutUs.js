@@ -27,7 +27,7 @@ const AboutUs = () => {
             
 
             <div className="location">
-                <h3>DONDE ENCONTRARNOS 📌</h3>
+                <h3>📌 DONDE ENCONTRARNOS</h3>
                 <div className="map-container">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4242.782759200408!2d-60.68006512348313!3d-31.612883505779457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9f8d1381661%3A0xad8f70c5bdd6f9be!2s%C3%81ngel%20Cassanello%20970%2C%20S3004EAN%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e1!3m2!1ses-419!2sar!4v1730754619351!5m2!1ses-419!2sar" 

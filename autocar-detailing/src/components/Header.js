@@ -21,7 +21,7 @@ function Header() {
         </div>
         <nav className={isMenuOpen ? 'menu open' : 'menu'}>
           <ul>
-            <li><a href="#about" onClick={closeMenu}>INICIO</a></li>
+            {/* <li><a href="#about" onClick={closeMenu}>INICIO</a></li> */}
             <li><a href="#work-mosaic" onClick={closeMenu}>SERVICIOS</a></li>
             <li><a href="#about-us" onClick={closeMenu}>NOSOTROS</a></li>
           </ul>

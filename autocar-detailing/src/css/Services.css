@@ -1,6 +1,5 @@
 #work-mosaic {
     text-align: center;
-    padding: 2rem 1rem;
     background-color: #f7f7f7;
     width: 100%;
     height: auto; /* Tamaño fijo para la sección */
@@ -13,6 +12,8 @@
     max-height: 300px; 
     object-fit: cover;
     aspect-ratio: 16 / 9;
+    padding: 1rem 1rem;
+    
   }
   
 
@@ -77,5 +78,6 @@
 
     #work-mosaic img {
         max-height: 250px; /* Ajusta la altura en pantallas pequeñas */
+        width: 95%;
     }
 }

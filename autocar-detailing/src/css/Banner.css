@@ -9,9 +9,19 @@
     object-fit: cover;
 }
 
-/* Ajustar el comportamiento en pantallas pequeñas */
+.banner-responsive {
+    display: none;
+}
+
+.banner-desktop {
+    display: block;
+}
+
 @media (max-width: 768px) {
-    .banner img {
-        object-fit: contain; /* Ajusta la imagen en pantallas más pequeñas */
+    .banner-desktop {
+        display: none;
+    }
+    .banner-responsive {
+        display: block;
     }
 }

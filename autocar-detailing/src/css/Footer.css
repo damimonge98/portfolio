@@ -60,7 +60,11 @@
 .footer-credits {
   background-color: black;
   text-align: center;
-  height: 30px
+  height: 40px
+}
+
+.footer-credits p {
+  padding-top: 9px;
 }
 @media (max-width: 768px) {
   .cover_footer {

@@ -7,23 +7,23 @@ import Footer from './components/Footer';
 import { useEffect } from 'react';
 
 const images = [
-  { src: `${process.env.PUBLIC_URL}/img/foto1.jpg`, 
+  { src: `${process.env.PUBLIC_URL}/img/foto1.webp`, 
     alt: 'Limpieza de tapizados', 
     title: "LIMPIEZA DE TAPIZADOS / RESTAURACIÓN DE PLÁSTICOS",
     description: ""
   },
-  { src: `${process.env.PUBLIC_URL}/img/foto2.jpg`, 
+  { src: `${process.env.PUBLIC_URL}/img/foto2.webp`, 
     alt: 'Púlidos, lustrados y tratamientos acrilicos', 
     title: "PULIDOS / LUSTRADOS / TRATAMIENTOS ÁCRILICOS"},
 
   { 
-    src: `${process.env.PUBLIC_URL}/img/foto3.jpg`, 
+    src: `${process.env.PUBLIC_URL}/img/foto3.webp`, 
     alt: 'Lavados', 
     title: "LAVADOS A DETALLE / LAVADOS DE MOTOR"
   },
 
   { 
-    src: `${process.env.PUBLIC_URL}/img/foto4.jpg`, 
+    src: `${process.env.PUBLIC_URL}/img/foto4.webp`, 
     alt: 'Cambios de aceite', 
     title: "MÉCANICA LIGERA / CAMBIOS DE ACEITE Y FILTROS"
   }

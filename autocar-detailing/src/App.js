@@ -1,10 +1,9 @@
-
 import Header from './components/Header';
 import Banner from './sections/Banner';
 import Services from './sections/Services';
 import AboutUs from './sections/AboutUs';
 import Footer from './components/Footer';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const images = [
   { src: `${process.env.PUBLIC_URL}/img/foto1.webp`, 
@@ -31,13 +30,22 @@ const images = [
 ];
 
 function App() {
+  const [showServices, setShowServices] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowServices(true);
+    }, 500); // Ajusta el tiempo según sea necesario
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="App">
-     <Header/>
-     <Banner/>
-     <Services images={images} />
-     <AboutUs/>
-     <Footer/>
+      <Header/>
+      <Banner/>
+      {showServices && <Services images={images} />}
+      {showServices && <AboutUs/>}
+      {showServices && <Footer/>}
     </div>
   );
 }

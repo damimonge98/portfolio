@@ -31,16 +31,6 @@ const images = [
 ];
 
 function App() {
-  useEffect(() => {
-    // Preload de la imagen del banner
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.href = `${process.env.PUBLIC_URL}/img/banner.svg`;
-    link.as = 'image';
-    document.head.appendChild(link);
-
-    return () => document.head.removeChild(link);
-  }, []);
 
   return (
     <div className="App">

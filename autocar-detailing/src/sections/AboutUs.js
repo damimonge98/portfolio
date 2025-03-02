@@ -42,7 +42,7 @@ const AboutUs = () => {
                 <p>
                     Estamos ubicados en:
                     <br />
-                    Angel Casanello 970, ciudad de Santa Fe
+                    Angel Casanello 970, ciudad de Santa Fe.
                 </p>
             </div>
         </section>

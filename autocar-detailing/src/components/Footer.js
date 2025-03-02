@@ -13,7 +13,8 @@ function Footer() {
           <nav className="footer-nav">
             <h3>SITIOS</h3>
             <a href=".banner">INICIO</a>
-            <a href="#work-mosaic">SOBRE NOSOTROS</a>
+            <a href="#work-mosaic">SERVICIOS</a>
+            <a href="#about-us">SOBRE NOSOTROS</a>
             <a href="https://wa.me/3424732022">CONTACTO</a>
           </nav>
           <div className="footer-social">

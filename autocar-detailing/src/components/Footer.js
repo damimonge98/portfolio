@@ -29,9 +29,12 @@ function Footer() {
               <img src="/ruta-icono-instagram.png" alt="Instagram" className="social-icon" />
             </a> */}
           </div>
-        </div>
-
+      </div>
+      <div className="footer-credits">
+                 <p>Dami estuvo aquí 👨‍💻🚀</p>
+      </div> 
     </footer>
+    
   );
 }
 

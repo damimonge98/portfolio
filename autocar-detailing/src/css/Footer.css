@@ -1,7 +1,7 @@
 /* Footer.css */
 .footer {
   background-color: #010035;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   color: #fff;
   border-top: 1px solid rgba(255, 255, 255, 0.3); ;
 }
@@ -57,6 +57,11 @@
   filter: invert(1) brightness(2);
 }
 
+.footer-credits {
+  background-color: black;
+  text-align: center;
+  height: 30px
+}
 @media (max-width: 768px) {
   .cover_footer {
     display: block;

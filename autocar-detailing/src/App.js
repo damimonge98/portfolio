@@ -31,7 +31,6 @@ const images = [
 ];
 
 function App() {
-
   return (
     <div className="App">
      <Header/>

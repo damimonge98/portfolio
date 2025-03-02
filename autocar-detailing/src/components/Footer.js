@@ -11,7 +11,7 @@ function Footer() {
         </div>
 
           <nav className="footer-nav">
-            <h3>SITIOS</h3>
+            <h3>SECCIONES</h3>
             <a href=".banner">INICIO</a>
             <a href="#work-mosaic">SERVICIOS</a>
             <a href="#about-us">SOBRE NOSOTROS</a>

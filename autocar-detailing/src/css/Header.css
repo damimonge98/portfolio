@@ -92,9 +92,9 @@ header {
       display: block;
       position: absolute;
       background-color: #010035;
-      margin-top: 274px;
       width:100%;
       margin-left: -32px;
+      margin-top: 230px;
     }
 
     .menu.open ul {
@@ -144,5 +144,9 @@ header {
       width: 150px;
       height: 150px;
       margin: unset;
+    }
+
+    .menu.open {
+      margin-top: 274px;
     }
   }

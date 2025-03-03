@@ -31,7 +31,7 @@ function Footer() {
           </div>
       </div>
       <div className="footer-credits">
-                 <p>Dami estuvo aquí ... 👨‍💻🚀</p>
+                 <p><a href="https://www.instagram.com/dami_monge/?hl=es-la">@dami_monge</a> estuvo aquí ... 👨‍💻🚀</p>
       </div> 
     </footer>
     

@@ -66,6 +66,12 @@
 .footer-credits p {
   padding-top: 9px;
 }
+
+.footer-credits a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
 @media (max-width: 768px) {
   .cover_footer {
     display: block;

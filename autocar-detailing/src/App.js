@@ -24,7 +24,7 @@ const images = [
   { 
     src: `${process.env.PUBLIC_URL}/img/foto4.webp`, 
     alt: 'Cambios de aceite', 
-    title: "MÉCANICA LIGERA / CAMBIOS DE ACEITE Y FILTROS"
+    title: "MÉCANICA LIGERA"
   }
   // Agrega más imágenes según sea necesario
 ];
